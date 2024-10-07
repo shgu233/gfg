@@ -12,7 +12,7 @@ class Solution:
         while j>=0:
             if arr[j]>=maxi:
                 a.insert(0,arr[j])
-            maxi=max(maxi,arr[j])
+                maxi=arr[j]
             j-=1
         return a
             
